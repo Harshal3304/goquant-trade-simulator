@@ -12,7 +12,7 @@ class OrderBook:
 
         for price,size in new_bids:
             price=float(price)
-            size = float(price)
+            size = float(size)
             if size==0:
                 self.bids.pop(price,None)
             else:
